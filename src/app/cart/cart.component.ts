@@ -22,6 +22,7 @@ export class CartComponent {
   ) { }
 
   // We added a comment
+  // And another
   onSubmit(): void {
     this.items = this.cartService.clearCart();
     console.warn('Your order has been submitted', this.checkoutForm.value);
